@@ -1,0 +1,46 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    max-width: 1400px;
+    margin: auto;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width: calc((100% / 3) - 3rem);
+    border: 1px solid gray;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem 1rem 0;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+h1{
+    padding-left: 1rem;
+    margin: 1rem 0 5rem 0 ;
+}
+
+h2{
+    padding-left: 1rem;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
